@@ -19,6 +19,7 @@ function selectTopic() {
    console.log('Please try again!');
  }
 }
+selectTopic
 
 
 
