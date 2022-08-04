@@ -3,10 +3,11 @@ var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 function listTopics() {
  for (var x = 0; x < topics.length; x++) {
    console.log(topics[x]);
+   selectTopic (topics[x])
  }
 }
 
-function selectTopic() {
+function selectTopic(topic) {
  if (topic === 'HTML') {
    console.log("Let's study HTML!");
  } else if (topic === 'CSS') {
@@ -19,8 +20,7 @@ function selectTopic() {
    console.log('Please try again!');
  }
 }
-selectTopic
 
-
+listTopics()
 
 
